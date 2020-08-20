@@ -1,0 +1,166 @@
+/* Table Of Content
+---------------------------------------------------------
+    01. Header Section CSS
+    02. ScrollUp  CSS
+--------------------------------------------------------*/
+
+
+/* ---------------------------
+    01. Header Section CSS
+------------------------------*/
+
+.tcd-header-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.tcd-header-1 .logo a {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.tcd-header-1 .logo a:hover {
+    color: #2b8ece;
+}
+
+@-webkit-keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.banner_video {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner_div {
+    margin: 0 auto;
+}
+
+.banner-p1 {
+    position: absolute;
+    font-size: 40px;
+    bottom: 55%;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.banner-p4 {
+    position: absolute;
+    font-weight: 400;
+    font-size: 20px;
+    bottom: 50%;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.banner-p2 {
+    position: absolute;
+    font-weight: 400;
+    font-size: 13px;
+    bottom: 46%;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.banner-p3 {
+    position: absolute;
+    font-size: 13px;
+    font-weight: 400;
+    bottom: 42%;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+
+@-webkit-keyframes myFade {
+    0% {
+        margin-bottom: 0px;
+    }
+    50% {
+        margin-bottom: 20px;
+    }
+    100% {
+        margin-bottom: 0px;
+    }
+}
+
+.banner-img {
+    margin-left: 50%;
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    bottom: 2%;
+    animation: myFade 2s linear infinite;
+}
+
+
+/* ------------------------------------
+    02. ScrollUp  CSS
+---------------------------------------*/
+
+#toTop {
+    text-align: center;
+    bottom: 40px;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    right: 40px;
+    z-index: 999;
+}
+
+#toTop i {
+    font-size: 18px;
+    transform: rotate(-45deg);
+    color: #fff;
+    background: #2b8ece;
+    height: 48px;
+    width: 48px;
+    line-height: 48px;
+    border-radius: 50%;
+    text-indent: 2px;
+}
+
+#toTop i:hover {
+    opacity: 0.8;
+}
