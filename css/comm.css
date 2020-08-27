@@ -64,8 +64,8 @@
 
 .banner-p1 {
     position: absolute;
-    font-size: 40px;
-    bottom: 55%;
+    font-size: 30px;
+    bottom: 50%;
     width: 100%;
     color: #fff;
     text-align: center;
@@ -78,7 +78,7 @@
     position: absolute;
     font-weight: 400;
     font-size: 20px;
-    bottom: 50%;
+    bottom: 47%;
     width: 100%;
     color: #fff;
     text-align: center;
@@ -90,7 +90,7 @@
     position: absolute;
     font-weight: 400;
     font-size: 13px;
-    bottom: 46%;
+    bottom: 44%;
     width: 100%;
     color: #fff;
     text-align: center;

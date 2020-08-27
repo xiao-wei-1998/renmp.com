@@ -2,20 +2,20 @@
 
 @media only screen and (min-width: 1200px) {
     .banner-p1 {
-        bottom: 480px;
+        bottom: 450px;
         font-size: 36px;
     }
     .banner-p2 {
         font-size: 24px;
-        bottom: 410px;
+        bottom: 380px;
     }
     .banner-p3 {
         font-size: 24px;
-        bottom: 370px;
+        bottom: 340px;
     }
     .banner-p4 {
         font-size: 24px;
-        bottom: 450px;
+        bottom: 420px;
     }
     video {
         width: 100%;
