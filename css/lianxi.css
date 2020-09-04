@@ -1,5 +1,5 @@
         .lianxi-us {
-            font-size: 24px;
+            font-size: 35px;
             color: #666;
             line-height: 36px;
             margin-top: 10%;
@@ -7,7 +7,7 @@
         }
         
         .lianxi-name {
-            font-size: 20px;
+            font-size: 23px;
             line-height: 40px;
             margin-top: 10%;
             color: rgb(61, 61, 61);
@@ -16,6 +16,7 @@
         
         .lianxi-p {
             color: gray;
+            font-size: 18px;
         }
         
         .lianxi-line {

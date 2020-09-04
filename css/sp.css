@@ -1,0 +1,59 @@
+@media screen and(min-width: 1024px) {
+    .banner-tp {
+        display: none;
+    }
+}
+
+
+/*>=1024的设备屏幕*/
+
+@media screen and(min-width: 1100px) {
+    .banner-tp {
+        display: none;
+    }
+}
+
+
+/*>=1100的设备屏幕*/
+
+@media (min-width: 1280px) {
+    .banner-tp {
+        display: none;
+    }
+}
+
+
+/*>=1280的设备屏幕*/
+
+@media screen and(min-width: 1366px) {
+    .banner-tp {
+        display: none;
+    }
+}
+
+
+/*>=1366的设备屏幕*/
+
+@media screen and(min-width: 1440px) {
+    .banner-tp {
+        display: none;
+    }
+}
+
+
+/*>=1440的设备屏幕*/
+
+@media screen and(min-width: 1680px) {
+    .banner-tp {
+        display: none;
+    }
+}
+
+
+/*>=1680的设备屏幕*/
+
+@media screen and(min-width: 1920px) {
+    .banner-tp {
+        display: none;
+    }
+}

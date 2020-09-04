@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/sp.css">
 
     <!-- 响应式 Web 网站 -->
     <!-- Responsive Stylesheet -->
@@ -31,6 +32,19 @@
         })();
     </script>
 </head>
+<style>
+    .container33 {
+        width: 100%;
+        height: 1080px;
+        overflow: hidden;
+        background-image: url(./images/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* .container33>img {
+        height: 1080px;
+    } */
+</style>
 
 <body>
     <!-- Banner Start -->
@@ -56,16 +70,10 @@
                             <div class="mainmenu">
                                 <ul class="nav-menu">
                                     <li><a style="color: #2b8ece;" href="index.html">首页</a></li>
-
                                     <li><a href="rmp.html">旗下产品</a></li>
                                     <li><a href="about.html">关于我们</a></li>
                                     <li><a href="business.html">企业规划</a></li>
-
                                     <li><a href="lianxi.html">联系我们</a></li>
-
-
-
-
                                 </ul>
                                 <div class="contact-menu">
                                     <span class="icon"><img src="images/phone.svg" alt="Phone Icon" />
@@ -75,7 +83,7 @@
                           >0551-62873931</a
                         ></span
                       >
-                      <span>营业时间 09-06</span>
+                      <span>为你提供优质的服务</span>
                                     </div>
                                 </div>
                             </div>
@@ -96,22 +104,37 @@
     </div>
     <!-- 视频 -->
 
-    <span class="banner_video">
-        <video class="video" 
-       
+    <span class="banner_video banner-tp">
+        <div id="container33" class="container33">
+            <!-- <span id="loading" class="loading" data-percent="0"></span> -->
+    </div>
+
+
+
+    <!-- <video class="video" 
         loop="loop"
         poster=""
         muted=""
-        autoplay="autoplay"
-          
+        autoplay="autoplay" 
         >
           <source src="banner.mp4" type="video/mp4" />
-        </video>
+        </video> -->
     </span>
     <!-- 视频end -->
 
     <!-- Banner End -->
-
+    <span class="banner_video banner-sp">
+        <video    
+        muted      
+        autoplay="autoplay"     
+        loop="loop"  
+        
+        >
+        
+        <source src="banner.mp4" type="video/mp4">
+        </video>
+    </div>
+</span>
 
     <div class="wrapp2 wow fadeInUp">
         <p class="p1">服务范围</p>
@@ -122,7 +145,7 @@
 
             <div class="trade-box-list">
                 <div class="trade-box-item item01 col-xs-12">
-                    <a href="javascript:;">
+                    <a target="_blank" href="rmp.html" style="color: #ffffff;">
                         <div class="item-logo">
                             <img src="images/img001.svg" alt="">
                         </div>
@@ -135,7 +158,7 @@
                     </a>
                 </div>
                 <div class="trade-box-item item02 col-xs-12">
-                    <a href="javascript:;">
+                    <a target="_blank" href="video.html" style="color: #ffffff;">
                         <div class="item-logo">
                             <img src="images/img002.svg" alt="">
                         </div>
@@ -148,7 +171,7 @@
                     </a>
                 </div>
                 <div class="trade-box-item item03 col-xs-12">
-                    <a href="javascript:;">
+                    <a target="_blank" href="rmp.html" style="color: #ffffff;">
                         <div class="item-logo">
                             <img src="images/img003.svg" alt="">
                         </div>
@@ -162,7 +185,7 @@
                     </a>
                 </div>
                 <div class="trade-box-item item04 col-xs-12">
-                    <a href="javascript:;">
+                    <a target="_blank" href="lianxi.html" style="color: #ffffff;">
                         <div class="item-logo">
                             <img src="images/img004.svg" alt="">
                         </div>
@@ -185,7 +208,7 @@
 
 
     <!-- 我们的队伍 -->
-    <div class="wrapp5 wow fadeInUp" style="z-index: 99999;">
+    <div class="wrapp5 wow fadeInUp">
         <p class="p1">我们的队伍</p>
         <div class="wow fadeInUp">
             <div id="works" class=" clearfix grid ">
@@ -271,7 +294,7 @@
 
 
     <!-- pc底部 -->
-    <div class="rmp-footer wow fadeInUp" style="clear: both;">
+    <div class="rmp-footer wow fadeInUp" style="clear: both; margin-top: 90px;">
         <div class="rmp-footer-box">
             <div class="rmp-footer-nav clearfix">
                 <div class="rmp-footer-nav-logo">
@@ -310,16 +333,16 @@
                         <li class="list-title ">快速导航
                         </li>
                         <li>
-                            <a href="# ">旗下产品“人脉聘”</a>
+                            <a target="_blank" href="rmp.html">旗下产品“人脉聘”</a>
                         </li>
                         <li>
-                            <a href="# ">企业规划</a>
+                            <a target="_blank" href="business.html">企业规划</a>
                         </li>
                         <li>
-                            <a href="# ">联系我们</a>
+                            <a target="_blank" href="lianxi.html">联系我们</a>
                         </li>
                         <li>
-                            <a href="# ">关于我们</a>
+                            <a target="_blank" href="about.html">关于我们</a>
                         </li>
 
                     </ul>
@@ -328,13 +351,13 @@
                         </li>
 
                         <li>
-                            <a href="# ">产品介绍</a>
+                            <a target="_blank" href="rmp.html">产品介绍</a>
                         </li>
                         <li>
-                            <a href="# ">Android下载</a>
+                            <a target="_blank" href="rmp.html">Android下载</a>
                         </li>
                         <li>
-                            <a href="# ">iOS下载</a>
+                            <a target="_blank" href="rmp.html">iOS下载</a>
                         </li>
 
                     </ul>
@@ -342,34 +365,35 @@
                         <li class="list-title ">关于我们
                         </li>
                         <li>
-                            <a href="# ">公司简介</a>
+                            <a target="_blank" href="about.html">公司简介</a>
                         </li>
                         <li>
-                            <a href="# ">公司文化</a>
+                            <a target="_blank" href="about.html">公司环境</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="about.html">企业愿景</a>
+                        </li>
+                        <li>
+
+                            <a target="_blank" href="lianxi.html">联系我们</a>
                         </li>
 
-                        <li>
-                            <a href="# ">公司环境</a>
-                        </li>
-                        <li>
-                            <a href="# ">联系我们</a>
-                        </li>
 
                     </ul>
                     <ul>
                         <li class="list-title ">友情链接
                         </li>
                         <li>
-                            <a href="# ">招聘</a>
+                            <a target="_blank" href="# ">招聘</a>
                         </li>
                         <li>
-                            <a href="# ">招聘</a>
+                            <a target="_blank" href="# ">招聘</a>
                         </li>
                         <li>
-                            <a href="# ">招聘</a>
+                            <a target="_blank" href="# ">招聘</a>
                         </li>
                         <li>
-                            <a href="# ">招聘</a>
+                            <a target="_blank" href="# ">招聘</a>
                         </li>
 
 
@@ -428,7 +452,7 @@
         var single;
         $(window).load(function() {
             single = $('.single').mySingleScroll({
-                speed: 2000
+                speed: 1500
             });
         });
     </script>
@@ -441,8 +465,67 @@
             });
         });
     </script>
-    <!-- 视频播放暂停 -->
+    <!-- 视频播放
+    <script>
+        var urlRoot = './thumbs/';
+        var indexRange = [1, 90];
+        var maxLength = indexRange[1] - indexRange[0] + 1;
+        // loading
+        var eleContainer = document.getElementById('container33');
+        var eleLoading = document.getElementById('loading');
+        // 存储预加载的DOM对象和长度信息
+        var store = {
+            length: 0
+        };
+        // 图片序列预加载
+        for (var start = indexRange[0]; start <= indexRange[1]; start++) {
+            (function(index) {
+                var img = new Image();
+                img.onload = function() {
+                    store.length++;
+                    // 存储预加载的图片对象
+                    store[index] = this;
+                    play();
+                };
+                img.onerror = function() {
+                    store.length++;
+                    play();
+                };
+                img.src = urlRoot + index + '.jpg';
+            })(start);
+        }
 
+        var play = function() {
+            // loading进度
+            var percent = Math.round(100 * store.length / maxLength);
+            eleLoading.setAttribute('data-percent', percent);
+            eleLoading.style.backgroundSize = percent + '% 100%';
+            // 全部加载完毕，无论成功还是失败
+            if (percent == 100) {
+                var index = indexRange[0];
+                eleContainer.innerHTML = '';
+                // 依次append图片对象
+                var step = function() {
+                    if (store[index - 1]) {
+                        eleContainer.removeChild(store[index - 1]);
+                    }
+                    eleContainer.appendChild(store[index]);
+                    // 序列增加
+                    index++;
+                    // 如果超过最大限制
+                    if (index <= indexRange[1]) {
+                        setTimeout(step, 42);
+                    } else {
+                        // 本段播放结束回调
+                        // 我这里就放一个重新播放的按钮
+                        play();
+                    }
+                };
+                // 等100%动画结束后执行播放
+                setTimeout(step, 100);
+            }
+        };
+    </script> -->
 
 </body>
 
